@@ -63,7 +63,7 @@ function handleHostLogin(event) {
         sessionStorage.setItem('hostLoggedIn', 'true');
         
         // Redirect to the desired link after successful login
-        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdGlzHmbKPTaq8jpEXWHKB3D0DQqi8YUpZfNYjQVqN__oLsDQ/viewform?usp=sharing'; // Replace with your desired URL
+        window.location.href = 'https://docs.google.com/spreadsheets/d/1i94F5waxWQXvuMKaAXL9udPULQFx6LXcVZ0NifRTYok/edit?usp=sharing'; // Replace with your desired URL
     } else {
         document.getElementById('loginError').style.display = 'block';
     }
