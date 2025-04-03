@@ -3,10 +3,7 @@ const HOST_CREDENTIALS = {
     password: '1'
 };
 
-const HOST_CREDENTIALS1= {
-    username: 'shashi1',
-    password: 'shashi123'
-};
+
 
 function showRegistrationForm() {
     document.getElementById('landing-page').style.display = 'none';
